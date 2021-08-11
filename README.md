@@ -1,4 +1,4 @@
-# Sudoku-Practice-Webapp
+# Sudoku-Practise-Webapp
 
  To play the game download or clone the files on your system .Then run  index.html   file
 
