@@ -130,7 +130,7 @@ function isPossible(board, sr, sc, val)
         }
     }
 
-    //if that no already present return false
+    //if that no already present  return false
     for (var col = 0; col < 9; col++) 
     {
         if (board[sr][col] == val) 
@@ -195,11 +195,12 @@ function solveSudokuHelper(board, sr, sc)
         {
             board[sr][sc] = i; //placing value in board
             solveSudokuHelper(board, sr, sc + 1);
-            board[sr][sc] = 0;//returns false to previous cells,to make prev. cell change,if value checked is not safe
+            board[sr][sc] = 0; //if value not safe again making it 0 
         }
     }
 }
 
+//takes input board ehich is 2d array
 function solveSudoku(board) 
 {
     solveSudokuHelper(board, 0, 0)
