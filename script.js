@@ -200,7 +200,7 @@ function solveSudokuHelper(board, sr, sc)
     }
 }
 
-//takes input board ehich is 2d array
+//takes input board which is 2d array
 function solveSudoku(board) 
 {
     solveSudokuHelper(board, 0, 0)
