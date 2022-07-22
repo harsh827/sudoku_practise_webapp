@@ -1,4 +1,4 @@
-# Sudoku-Solver-Webapp
+# Sudoku-Solver-Website
 
  - To play the game download or clone the files on your system .Then run  index.html   file
  - URL for the sudoku webapp = https://sudoku-practise-webapp827.herokuapp.com/   
